@@ -7,18 +7,23 @@ using System.Threading.Tasks;
 namespace ConsoleApplication1
 {
     class Program
+
     {
+        Fibonacci fibo = new Fibonacci();
+
         static void Main(string[] args)
 
         {
+            Fibonacci fibo = new Fibonacci();
+            fibo.operacion(2);
+            Console.WriteLine(fibo.operacion(1));//1
+            Console.WriteLine(fibo.operacion(2));//1
+            Console.WriteLine(fibo.operacion(3));//2
 
-            System.Console.WriteLine("Hola Mundo Bienvenido");
-            System.Console.ReadKey();
+            System.Console.ReadLine();
 
 
-
-
-
+           
         }
     }
 }
