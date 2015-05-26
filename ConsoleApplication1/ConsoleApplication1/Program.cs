@@ -14,15 +14,17 @@ namespace ConsoleApplication1
         static void Main(string[] args)
 
         {
+
+            arrays tarea2 = new arrays();
             Fibonacci fibo = new Fibonacci();
             fibo.operacion(2);
             Console.WriteLine(fibo.operacion(1));//1
             Console.WriteLine(fibo.operacion(2));//1
             Console.WriteLine(fibo.operacion(3));//2
 
+
+            tarea2.Imprime();
             System.Console.ReadLine();
-
-
            
         }
     }
